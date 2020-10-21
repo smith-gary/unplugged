@@ -664,8 +664,8 @@ main .contact {
       width: 45%;
     }
   
-    .contact-section .content-wrapper h2 {
-      width: 80%;
+    .contact .content-wrapper h2 {
+      width: 100%;
     }
   
     .contact-content {
@@ -677,6 +677,12 @@ main .contact {
     .contact-content h4 {
       font-size: 1.5em;
     }
+
+    .map figure {
+      padding-bottom: 40%;
+    }
+
+    
   
   /* ---------------------- FAQ Page ------------------------------ */
   
@@ -768,15 +774,19 @@ main .contact {
     }
   
    /* ---------------------- About Page ------------------------------ */
-  
-    .mission h2,
-    .contact-section .content-wrapper h2 {
-        width: 95%;
+
+   .mission h2,
+    .contact .content-wrapper h2 {
+        width: 100%;
         font-size: 3em;
     }
   
     .contact-content h4 {
       font-size: 1.875em;
+    }
+
+    .map figure {
+      padding-bottom: 40%;
     }
   
     /* ---------------------- FAQ Page ------------------------------ */
