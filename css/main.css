@@ -128,6 +128,14 @@ p {
   font-size: .875em;
   line-height: 1.285;
 }
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
  
 address {
  font-style: normal;
@@ -161,6 +169,14 @@ header .content-wrapper {
   flex-flow: row wrap;
 }
 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .header-divider {
   background: #3a3a3a; 
   height: 1px;
@@ -183,6 +199,7 @@ header nav ul {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  padding: 0;
 }
 
 header nav ul li {
@@ -228,6 +245,10 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url(../img/hero-img.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -239,6 +260,7 @@ footer .copyright {
   font-weight: 500; 
   line-height: 1.2; 
 }
+
 
 /* Aside */
 
@@ -305,6 +327,12 @@ input[type=button] {
   margin: 0;
 }
 
+.features {
+  background: url(../img/features-img.jpg);
+  background-position: center no-repeat;
+  background-size: cover;
+}
+
 /* Reviews */
 
 .reviews {
@@ -322,6 +350,15 @@ input[type=button] {
 .reviews h3 {
   width: 55%;
   margin: 20px 0;
+}
+
+.reviews figure {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
 }
 
 /*-------START MOBILE ABOUT PAGE-----*/
