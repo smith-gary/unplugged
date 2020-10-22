@@ -333,6 +333,11 @@ input[type=button] {
   background-size: cover;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 /* Reviews */
 
 .reviews {
@@ -681,9 +686,7 @@ main .contact {
     .map figure {
       padding-bottom: 40%;
     }
-
     
-  
   /* ---------------------- FAQ Page ------------------------------ */
   
     .faq .content-wrapper {
